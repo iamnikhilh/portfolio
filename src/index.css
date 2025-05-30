@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-white font-sans;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-medium;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 md:px-8 mx-auto max-w-7xl;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-heading font-bold mb-12 text-white relative inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-1/2 h-1 bg-neon-blue rounded-full;
+  }
+
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 inline-flex items-center gap-2;
+  }
+
+  .btn-primary {
+    @apply bg-neon-blue text-background hover:bg-opacity-80;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-neon-purple text-white hover:bg-neon-purple hover:bg-opacity-10;
+  }
+
+  .btn-accent {
+    @apply bg-neon-pink text-white hover:bg-opacity-80;
+  }
+
+  .card {
+    @apply bg-background-light rounded-xl p-6 border border-gray-800 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:border-neon-blue hover:shadow-lg hover:shadow-neon-blue/20;
+  }
+
+  .nav-link {
+    @apply relative px-3 py-2 text-gray-400 hover:text-white transition-colors;
+  }
+
+  .nav-link.active {
+    @apply text-neon-blue;
+  }
+
+  .nav-link.active::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-0.5 bg-neon-blue rounded-full;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background-light;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Text Glow Effects */
+.text-glow {
+  text-shadow: 0 0 1px rgba(246, 247, 247, 0.7);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px rgba(138, 43, 226, 0.7);
+}
+
+.text-glow-pink {
+  text-shadow: 0 0 10px rgba(255, 0, 127, 0.7);
+}
+
+/* 🌌 Updated Cool, Dark Gradient Backgrounds (same class names) */
+.bg-gradient-blue-purple {
+  background: linear-gradient(120deg, rgba(10, 25, 47, 0.9) 0%, rgba(0, 128, 128, 0.8) 50%, rgba(0, 191, 255, 0.8) 100%);
+  background-size: 300% 300%;
+  animation: gradient-x 10s ease infinite;
+}
+
+.bg-gradient-purple-pink {
+  background: linear-gradient(120deg, rgba(18, 32, 47, 0.9) 0%, rgba(36, 123, 160, 0.8) 50%, rgba(3, 4, 94, 0.9) 100%);
+  background-size: 300% 300%;
+  animation: gradient-x 10s ease infinite;
+}
+
+/* Gradient Animation */
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
