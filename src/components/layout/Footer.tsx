@@ -66,6 +66,7 @@ const Footer: React.FC = () => {
                   nikhilhalladamani3@gmail.com
                 </a>
               </li>
+               <li className="text-gray-400">+91 6360151751</li>
               <li className="text-gray-400">Bengaluru, Karnataka</li>
               <li className="text-gray-400">Available for work</li>
             </ul>
