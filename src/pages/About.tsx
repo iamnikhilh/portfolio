@@ -26,7 +26,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden border-2 border-neon-blue">
                   <img 
-                    src="imgs/3.jpg" 
+                    src="https://images.pexels.com/photos/32382750/pexels-photo-32382750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                     alt="Nikhil Profile" 
                     className="w-full h-full object-cover"
                   />
@@ -37,7 +37,7 @@ const About: React.FC = () => {
               
               <div className="mt-8">
                 <Button 
-                  href="resume.pdf"
+                  href="https://drive.google.com/file/d/1Q7zqBN61WJVcHg0gDoCtsVBF4ZpqIsts/view?usp=drive_link"
                   variant="primary"
                   icon={<Download size={20} />}
                   iconPosition="left"

@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 View Projects
               </Button>
               <Button 
-                href="resume.pdf"
+                href="https://drive.google.com/file/d/1Q7zqBN61WJVcHg0gDoCtsVBF4ZpqIsts/view?usp=drive_link"
                 variant="outline"
                 icon={<Download size={20} />}
                 iconPosition="left"
@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-neon-blue animate-float">
                 <img 
-                  src="imgs\3.jpg" 
+                  src="https://images.pexels.com/photos/32382750/pexels-photo-32382750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                   alt="Nikhil" 
                   className="w-full h-full object-cover"
                 />
