@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="order-1 md:order-2 flex justify-center md:justify-end"
           >
-            <div className="relative">
+            {/* <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-neon-blue animate-float">
                 <img 
                   src="https://images.pexels.com/photos/32382750/pexels-photo-32382750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-neon-purple opacity-20 animate-pulse"></div>
               <div className="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-neon-blue opacity-20 animate-pulse"></div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
