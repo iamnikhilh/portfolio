@@ -47,8 +47,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       'MongoDB',
       'MySQL',
-      'PostgreSQL',
-      'Firebase',
       'SQLite'
     ]
   },
@@ -84,12 +82,9 @@ export const skillCategories: SkillCategory[] = [
     icon: <Brain size={24} className="text-gray-400" />,
     skills: [
       'OpenCV',
-      
       'Tensor Flow',
       'Responsive Design',
-      'SEO',
-      'Web Accessibility',
-      'Technical Writing'
+      'Web Accessibility'
     ]
   }
 ];

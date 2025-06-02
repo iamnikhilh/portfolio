@@ -30,7 +30,7 @@ export const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/iamnikhilh/Healthcare-Management-System',
     liveUrl: 'https://ai-healthcare-suite.netlify.app',
-    date: 'Dec 2022 - May 2026',
+    date: 'Sept 2024 - Nov 2024',
     detailImages: [
       'https://images.pexels.com/photos/32333089/pexels-photo-32333089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       'https://images.pexels.com/photos/32333090/pexels-photo-32333090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     ],
     //githubUrl: 'https://github.com/yourusername/signaverse',
     // liveUrl: 'https://signaverse.netlify.app',
-    date: 'Ongoing - April 2025',
+    date: 'April 2025 - Ongoing',
     detailImages: [
       //'https://images.pexels.com/photos/7620309/pexels-photo-7620309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     ]
