@@ -135,7 +135,7 @@ const Home: React.FC = () => {
               </Button>
               
               <Button 
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1Q7zqBN61WJVcHg0gDoCtsVBF4ZpqIsts/view?usp=drive_link"
                 variant="outline"
                 size="lg"
                 download
