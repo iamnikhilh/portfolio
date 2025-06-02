@@ -21,7 +21,7 @@ const Experience: React.FC = () => {
             <Briefcase size={24} />
           </span>
           <h3 className="text-xl font-heading font-medium">
-            {experiences.length}+ years of professional experience
+            {experiences.length}+ years of experience
           </h3>
         </div>
 
