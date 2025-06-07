@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 View Projects
               </Button>
               <Button 
-                href="https://drive.google.com/file/d/1Q7zqBN61WJVcHg0gDoCtsVBF4ZpqIsts/view?usp=drive_link"
+                href="https://drive.google.com/file/d/10bc8aBC2vx9xLJNZY7MYQ38h0FiUokcj/view?usp=drive_link"
                 variant="outline"
                 icon={<Download size={20} />}
                 iconPosition="left"
